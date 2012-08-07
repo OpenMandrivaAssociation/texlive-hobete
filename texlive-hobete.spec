@@ -1,11 +1,11 @@
-# revision 25859
+# revision 27036
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer-contrib/hobete
-# catalog-date 2012-04-05 11:02:37 +0200
+# catalog-date 2012-06-26 15:55:21 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-hobete
-Version:	20120405
+Version:	20120626
 Release:	1
 Summary:	Unofficial beamer theme for the University of Hohenheim
 Group:		Publishing
