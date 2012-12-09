@@ -54,3 +54,15 @@ between the University and this theme.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120626-1
++ Revision: 812290
+- Update to latest release.
+
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120405-1
++ Revision: 790582
+- Import texlive-hobete
+- Import texlive-hobete
+
