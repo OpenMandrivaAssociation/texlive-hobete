@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-hobete
-Version:	20180303
-Release:	3
+Version:	20190228
+Release:	1
 Summary:	Unofficial beamer theme for the University of Hohenheim
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/hobete
