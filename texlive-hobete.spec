@@ -1,18 +1,12 @@
-# revision 27036
-# category Package
-# catalog-ctan /macros/latex/contrib/beamer-contrib/hobete
-# catalog-date 2012-06-26 15:55:21 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-hobete
-Version:	20190228
+Version:	27036
 Release:	1
 Summary:	Unofficial beamer theme for the University of Hohenheim
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/hobete
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobete.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobete.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobete.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobete.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ it, from the University. Furthermore there is NO relationship
 between the University and this theme.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -47,22 +41,10 @@ between the University and this theme.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120626-1
-+ Revision: 812290
-- Update to latest release.
-
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120405-1
-+ Revision: 790582
-- Import texlive-hobete
-- Import texlive-hobete
-
