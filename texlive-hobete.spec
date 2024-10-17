@@ -3,7 +3,7 @@ Version:	27036
 Release:	2
 Summary:	Unofficial beamer theme for the University of Hohenheim
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/hobete
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/hobete
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobete.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hobete.doc.r%{version}.tar.xz
